@@ -11,6 +11,11 @@ public class print {
         System.out.println("|harga = "+harga);
         System.out.println("|jumlah = "+jumlah);
         System.out.println("==================");
-        
+    }
+    double totalnilai(){
+        double nilai;
+        nilai= harga*jumlah;
+        return nilai;
+         
     }
 }

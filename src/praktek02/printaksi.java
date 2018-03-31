@@ -10,6 +10,7 @@ public class printaksi {
         a1.jumlah = 2;
         
         a1.menggantitinta();
-        
+        System.out.println("| bayar = "+a1.totalnilai());
+       
     }
 }
