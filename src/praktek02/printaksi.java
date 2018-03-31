@@ -9,5 +9,7 @@ public class printaksi {
         a1.harga = 650;
         a1.jumlah = 2;
         
+        a1.menggantitinta();
+        
     }
 }
