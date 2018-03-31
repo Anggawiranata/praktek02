@@ -11,6 +11,8 @@ public class printaksi {
         
         a1.menggantitinta();
         System.out.println("| bayar = "+a1.totalnilai());
-       
+        System.out.println("===========================");
+        a1.totalharga();
+        
     }
 }
