@@ -1,14 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package praktek02;
 
-/**
- *
- * @author USER
- */
+package praktek02;
 public class print {
+    String merk;
+    double harga;
+    double jumlah;
     
+    void menggantitinta(){
+        System.out.println("==================");
+        System.out.println("|merk = "+merk);
+        System.out.println("|harga = "+harga);
+        System.out.println("|jumlah = "+jumlah);
+        System.out.println("==================");
+        
+    }
 }
