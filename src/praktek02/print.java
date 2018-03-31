@@ -4,6 +4,13 @@ public class print {
     String merk;
     double harga;
     double jumlah;
+
+    public print() {
+        merk="epson";
+        harga=800;
+        jumlah=5;
+    }
+    
     
     void menggantitinta(){
         System.out.println("==================");
@@ -17,5 +24,8 @@ public class print {
         nilai= harga*jumlah;
         return nilai;
          
+    }
+    void totalharga(){
+        System.out.println("totalnya adalah :"+totalnilai());
     }
 }
