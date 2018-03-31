@@ -14,5 +14,10 @@ public class printaksi {
         System.out.println("===========================");
         a1.totalharga();
         
+        print a2 = new print();
+        a2.menggantitinta();
+        
+        print a3 = new print("hp ",1500,1);
+        a3.menggantitinta();
     }
 }
